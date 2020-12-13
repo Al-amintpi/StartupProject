@@ -1,4 +1,4 @@
-@media all and (min-width: 992px){
+  @media all and (min-width: 992px){
 	 
 }
 
@@ -9,9 +9,15 @@
 }
 
 .logo{
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	align-items: center;
-	justify-content: space-between;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	-webkit-box-pack: justify;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
 }
 
 .header-menu {
@@ -36,7 +42,10 @@
 }
 
 .menu ul {
-	flex-direction: column;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
 	text-align: center;
 	padding: 1rem 0;
 }
@@ -50,7 +59,10 @@
 }
 
 .skill-circle{
-	flex-direction: column;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
 }
 
 svg.radial-progress {
@@ -74,7 +86,10 @@ svg.radial-progress {
 }
 
 .total-work {
-	flex-direction: column;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
 
 }
 
@@ -112,8 +127,13 @@ svg.radial-progress {
 }
 
 .content {
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	flex-direction: column;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
 }
 .shape span {
 	width: 10rem;  
@@ -176,7 +196,10 @@ svg.radial-progress {
 }
 
 .bubble-content {
-	flex-direction: column;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
 }
 
 .purches-cart {
@@ -184,7 +207,10 @@ svg.radial-progress {
 }
 
 .purches-content{
-	flex-direction: column;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
 }
 
 .amazing-title p, .skill-title p {

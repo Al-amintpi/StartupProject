@@ -27,7 +27,7 @@ $(document).ready(function(){
 	 });
 
 	var next = "<i class='fas fa-caret-left'></i>";
-	var prev = "<i class='fas fa-caret-right'></i>"
+	var prev = "<i class='fas fa-caret-right'></i>";
 	$('.quote-content').owlCarousel({
 		items:1,
 		nav:true,
